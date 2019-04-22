@@ -1,0 +1,11 @@
+.product-preview-container {
+    padding: 5px;
+    width: 250px;
+    margin:10px 8% 50px 42px;
+    display: inline-block;
+    text-align:left;
+}
+
+.product-preview-container input {
+    width: 50px;
+}

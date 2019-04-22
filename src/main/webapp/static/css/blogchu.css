@@ -1,0 +1,15 @@
+.article_content_wrap { max-width: 66.666667%; margin: 0 auto; padding: 30px 0;}
+.article_content_wrap h1{ font-size: 34px; float: none; color: #000; display: inline-block; }
+.article_content_wrap h1:after{ background-color: #EA8025; width: 20%; }
+#article .article_content{ position: relative; z-index: 1; }
+.job_table_detail .article_content ul{ padding: 0; }
+.job_table_detail .article_content li { margin-bottom: 20px; color: #333; }
+.article_content_wrap { max-width: 90%;}
+.job_table_detail .article_content{ padding-left: 0; padding-right: 0; flex: 0 0 100%;width: 100%; }
+
+.btn_action a{
+    font-size: 18px; background: black; color: white; font-weight: bold; display: inline-block;
+    font-family: 'Bebas Neue','Lato', sans-serif; padding: 9px 60px 7px; }
+
+.article_wrap .btn_action a.next_article{ float: right; }
+.article_wrap .btn_action a.previous_article{ float: left; }
