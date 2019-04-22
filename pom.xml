@@ -27,7 +27,7 @@
 	<password>1234</password>
 	<failOnMissgWebXml>false</failOnMissgWebXml><!-- REQUIRED -->
 	<!-- [ENDEXCLUDE] -->
-	<sqlURL>jdbc:mysql://google/quanlybanhang?cloudSqlInstance&#61;cloud-daovantoan: asia-southeast1: tintucnhom6&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL&#61;false</sqlURL>
+	<sqlURL>jdbc:mysql://google/quanlybanhang?cloudSqlInstance&#61;cloud-daovantoan: asia-southeast1: tintucnhom6&amp;socketFactory&#61;com.google.cloud.sql.mysql.SocketFactory&amp;useSSL&#61;false</sqlURL>
     </properties>
 
     <dependencies>
