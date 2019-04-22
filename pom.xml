@@ -22,13 +22,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <INSTANCE_CONNECTION_NAME>cloud-daovantoan: asia-southeast1: tintucnhom6</INSTANCE_CONNECTION_NAME>
-	<user>root</user>
-	<password>1234</password>
-	<database>quanlybanhang</database>
-	<failOnMissingWebXml>false</failOnMissingWebXml><!-- REQUIRED -->
-	<!-- [END_EXCLUDE] -->
-	<sqlURL>jdbc:mysql://google/quanlybanhang?cloudSqlInstance&#61;cloud-daovantoan: asia-southeast1: tintucnhom6&amp;socketFactory&#61;com.google.cloud.sql.mysql.SocketFactory&amp;useSSL&#61;false</sqlURL>
     </properties>
 
     <dependencies>
@@ -91,26 +84,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-        	<groupId>com.google.cloud.sql</groupId>
-        	<artifactId>mysql-socket-factory-connector-j-6</artifactId>
-        	<version>1.0.12</version>
-        </dependency>
-        <dependency>
-        	<groupId>com.google.api-client</groupId>
-        	<artifactId>google-api-client</artifactId>
-        	<version>1.28.0</version>
-        </dependency>
-        <dependency>
-        	<groupId>com.google.api-client</groupId>
-        	<artifactId>google-api-client-appengine</artifactId>
-        	<version>1.28.0</version>
-        </dependency>
-        <dependency>
-        	<groupId>com.google.api-client</groupId>
-        	<artifactId>google-api-client-servlet</artifactId>
-        	<version>1.28.0</version>
         </dependency>
     </dependencies>
 
