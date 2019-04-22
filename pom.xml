@@ -27,6 +27,7 @@
 	<password>1234</password>
 	<failOnMissgWebXml>false</failOnMissgWebXml><!-- REQUIRED -->
 	<!-- [ENDEXCLUDE] -->
+	<sqlURL>jdbc:mysql://google/quanlybanhang?cloudSqlInstance&#61;cloud-daovantoan: asia-southeast1: tintucnhom6&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=false</sqlURL>
     </properties>
 
     <dependencies>
@@ -89,6 +90,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.cloud.sql</groupId>
+        	<artifactId>mysql-socket-factory-connector-j-6</artifactId>
+        	<version>1.0.12</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.api-client</groupId>
+        	<artifactId>google-api-client</artifactId>
+        	<version>1.28.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.api-client</groupId>
+        	<artifactId>google-api-client-appengine</artifactId>
+        	<version>1.28.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.api-client</groupId>
+        	<artifactId>google-api-client-servlet</artifactId>
+        	<version>1.28.0</version>
         </dependency>
     </dependencies>
 
